@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #e4eff9;
+}
+hr {
+  border: none;
+  border-top: dotted;
+  border-width: 10px;
+  color: #8dd1ef;
+  width: 10%;
+  margin: 100px auto;
+}
+h2 {
+  font-family: gilroy;
+  color: #5d3ec5;
+  font-size: 1.8em;
+}
+h3 {
+  font-family: gilroy;
+  color: #a66dd4;
+}
+p {
+  font-family: gilroy;
+  position: relative;
+  color: #023f7b;
+  font-size: large;
+  line-height: 2;
+}
+a {
+  color: #40e0d0;
+  font-size: 20px;
+  font-family: gilroy;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #3ab7aa;
+}
+@font-face {
+  src: url(fonts/Gilroy-Regular.ttf);
+  font-family: gilroy;
+  src: url(fonts/Gilroy-SemiBold.ttf);
+  font-family: gilroysbold;
+  src: url(fonts/Gilroy-Bold.ttf);
+  font-family: gilroybold;
+}
+.top_container {
+  background-color: #caf0f8;
+  margin-top: 0%;
+  height: 900px;
+  position: relative;
+  font-family: gilroy;
+}
+.web-dev {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.app-dev {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.skills {
+  margin-top: 20px;
+}
+.skill-row {
+  width: 60%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.title {
+  margin-top: 150px;
+  margin-bottom: 0;
+  position: relative;
+  font-family: gilroybold;
+  font-size: 4em;
+  color: #0096c7;
+}
+.contact-me {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.subtitle {
+  position: relative;
+  font-weight: 600;
+  font-size: 2em;
+  color: #0096c7;
+}
+.btn {
+  width: 175px;
+  height: 45px;
+  box-shadow: -5px -5px 10px 0.5px rgba(255, 255, 255, 0.81),
+    5px 5px 10px 1px rgba(128, 128, 128, 0.504);
+  font-family: gilroy;
+  font-weight: 600;
+  position: relative;
+  background: #e4eff9;
+  margin-bottom: 25px;
+  border-radius: 13px;
+  text-align: center;
+  font-size: 1.25em;
+  border-color: transparent;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  color: #40e0d0;
+}
+.btn:hover {
+  color: #eaba29;
+  box-shadow: -5px -5px 10px 1px rgba(255, 255, 255, 0.5),
+    5px 5px 10px 1px rgba(128, 128, 128, 0.147);
+}
+.btn:active {
+  color: #af0d58;
+  box-shadow: inset -5px -5px 10px 1px rgba(255, 255, 255, 0.81),
+    inset 5px 5px 10px 1px rgba(128, 128, 128, 0.347);
+}
+.bottom-container {
+  margin: auto;
+  background-color: #caf0f8;
+  padding: 1em;
+  padding-top: 3em;
+}
+.intro-para {
+  width: 30%;
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+.copywrite {
+  font-size: 0.8em;
+}
+.intro {
+  position: relative;
+  bottom: 30px;
+}
+.bottom-cloud {
+  position: relative;
+  top: 20px;
+  right: 500px;
+}
+.top-cloud {
+  position: relative;
+  top: 70px;
+  left: 310px;
+}
+.Mountain {
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+}
+.profile {
+  margin-top: 20px;
+  border-radius: 90%;
+  position: relative;
+  height: 250px;
+}
